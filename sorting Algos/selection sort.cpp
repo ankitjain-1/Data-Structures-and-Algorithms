@@ -18,7 +18,7 @@ void swap(int& x, int& y) {
 
 int main () {
     vector<int> seq {5, 3, 1, 2, 6, 4};
-    cout << "Enter no in element separated by space, enter any char to stop: " << "\n";
+    cout << "Enter element of array to be sorted separated by space, enter any char to stop: " << "\n";
     int inp;
     // while (cin >> inp){
     //     seq.push_back(inp);
