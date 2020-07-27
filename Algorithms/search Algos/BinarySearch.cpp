@@ -3,8 +3,9 @@ using namespace std;
 
 int binary_search(vector<int> A, int element) {
     int n = A.size();
-    int mid = n/2 + 1, lb = 0, ub = n - 1;
-    while(A[mid] != element && ub >= lb) {
+    int lb = 0, ub = n - 1;
+    int mid = lb + ub;
+    while(A[mid] != element && ub > lb) {
         if (A[mid] == element) break;
         else if (A[mid] > element){
             ub = mid - 1;
@@ -17,8 +18,8 @@ int binary_search(vector<int> A, int element) {
 }
 
 int main () {
-    vector<int> arr {1,2,4,5,6,7,8,9,10,11,12};
-    int value = 3;
+    vector<int> arr {1,2,3,4,5,6,7,8,9,10};
+    int value = 9;
     int index = binary_search(arr, value);
     cout << index << "\n";
 }
