@@ -1,0 +1,11 @@
+//
+// Created by ankit on 22/09/20.
+//
+
+#ifndef DATA_STRUCTURES_AND_ALGORITHMS_HEIGHTOFBST_H
+#define DATA_STRUCTURES_AND_ALGORITHMS_HEIGHTOFBST_H
+#include "BSTimplementation.h"
+
+int heightOfBST(Node* rootPtr);
+
+#endif //DATA_STRUCTURES_AND_ALGORITHMS_HEIGHTOFBST_H
