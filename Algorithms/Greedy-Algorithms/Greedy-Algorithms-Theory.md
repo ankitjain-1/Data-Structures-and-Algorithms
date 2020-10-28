@@ -13,8 +13,8 @@
 * ##### Optimal Soutions - 
     * The solution that gives best results, that causes minimum cost.
     * That can be one and only one optimal solution.
-* ##### If a problem requires either minimum or maximum result that problem is called Optimization Problem.
-* ##### Greedy methods are used to solve optimisation problems.
+* ##### If a problem requires either minimum or maximum result that problem is called **Optimization Problem**.
+* ##### Greedy methods are used to solve optimization problems.
 ---
 ### Approach of Greedy Methods - 
 > A problem should be solved in stages, in each stage we will consider an input and if that input is feasible that we will include it to our solution, so by including all the feasible inputs we will get a optimal solution.
