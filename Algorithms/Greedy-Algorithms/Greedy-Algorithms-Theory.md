@@ -42,7 +42,7 @@ Very often we don't get global optimum solution.
 
 ![Example gif](https://d18l82el6cdm1i.cloudfront.net/uploads/xlck8z42EM-greedy-search-path-example.gif)
 
-In these problems we can use greedy problem - 
+In these problems we can use greedy method - 
 * Activity Selection Problem
 * Huffman Coding
 * Job Squencing Problem
