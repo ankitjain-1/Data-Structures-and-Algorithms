@@ -35,7 +35,7 @@ for i = 1 to n {
 **Pros -**
 Simple, Easy to implement, run fast.
 **Cons -**
-Very often we don't get global optimum solution.
+Very often we don't get global optimum solution.  
 
 **In this Example we don't get global optimum by using greedy method -**
 ![Example gif](https://d18l82el6cdm1i.cloudfront.net/uploads/xlck8z42EM-greedy-search-path-example.gif)
