@@ -37,5 +37,14 @@ Simple, Easy to implement, run fast.
 **Cons -**
 Very often we don't get global optimum solution.  
 
-**In this Example we don't get global optimum by using greedy method -**
+**In this Example we don't get global optimum by using greedy method -**     
+
+
 ![Example gif](https://d18l82el6cdm1i.cloudfront.net/uploads/xlck8z42EM-greedy-search-path-example.gif)
+
+In these problems we can use greedy problem - 
+* Activity Selection Problem
+* Huffman Coding
+* Job Squencing Problem
+* Fractional Knapsack Problem
+* Prism's Minimum Spanning Tree
