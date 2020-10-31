@@ -1,8 +1,10 @@
 # Greedy Algorithm - 
-###### [Link for video lecture for this theory with examples](https://www.youtube.com/watch?v=ARvQcqJ_-NY&list=PLfFeAJ-vQopt_S5XlayyvDFL_mi2pGJE3&index=1)
+**An algorithm paradigm that follows the problem solving approach of making the locally optimal choice at each stage with the hope of finding global optimum.**
+###### Links for video lecture for this theory with examples - 
+[link1](https://youtu.be/ARvQcqJ_-NY), [link2](https://youtu.be/HzeK7g8cD0Y)
 ##### In problems in which we need optimization (either maximum of minimum of something) we can use Greedy methods for that.
 ### Methods to solve Optimization Problems - 
-*  Greedy Methods
+* Greedy Methods
 * Dynamic Programming
 * Branch and Bound
 ---
@@ -17,7 +19,8 @@
 * ##### Greedy methods are used to solve optimization problems.
 ---
 ### Approach of Greedy Methods - 
-> A problem should be solved in stages, in each stage we will consider an input and if that input is feasible that we will include it to our solution, so by including all the feasible inputs we will get a optimal solution.
+>
+> A problem should be solved in stages, in each stage we will consider an input and if that input is feasible that we will include it to our solution, so by including all the feasible inputs we will get a global optimal solution.
 
 Code Example - 
 ``` 
@@ -28,3 +31,11 @@ for i = 1 to n {
     }
 }
 ```
+
+**Pros -**
+Simple, Easy to implement, run fast.
+**Cons -**
+Very often we don't get global optimum solution.
+
+**In this Example we don't get global optimum by using greedy method -**
+![Example gif](https://d18l82el6cdm1i.cloudfront.net/uploads/xlck8z42EM-greedy-search-path-example.gif)
